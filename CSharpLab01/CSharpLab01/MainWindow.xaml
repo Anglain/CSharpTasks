@@ -17,13 +17,13 @@
                 </LinearGradientBrush>
             </DatePicker.BorderBrush>
         </DatePicker>
-        <TextBlock x:Name="BirthYearsText" Margin="202,126,203,90" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center"/>
+        <TextBlock x:Name="BirthYearsText" Margin="202,126,203,90" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock Margin="202,103,203,113" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" Text="You are:" TextAlignment="Center" FontSize="14"/>
         <TextBlock Margin="161,10,157,206" HorizontalAlignment="Center" VerticalAlignment="Center" Width="205" Height="23" Text="Choose your birth date here!" TextAlignment="Center" FontSize="14"/>
         <TextBlock x:Name="BirthYearsText_Copy" Margin="320,126,85,90" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" Text=" years old"/>
-        <TextBlock x:Name="ZodiacSignText" Margin="202,149,203,67" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center"/>
+        <TextBlock x:Name="ZodiacSignText" Margin="202,149,203,67" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock x:Name="BirthYearsText_Copy2" Margin="84,149,321,67" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" Text=" Western zodiac sign:"/>
-        <TextBlock x:Name="ChineseSignText" Margin="202,172,203,44" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center"/>
+        <TextBlock x:Name="ChineseSignText" Margin="202,172,203,44" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" TextAlignment="Center" FontWeight="Bold"/>
         <TextBlock x:Name="BirthYearsText_Copy4" Margin="84,172,321,44" HorizontalAlignment="Center" VerticalAlignment="Center" Width="118" Height="23" Text=" Chinese zodiac sign:"/>
     </Grid>
 </Window>
