@@ -43,6 +43,11 @@ namespace CSharpLab01
 
         private void BirthDatePicker_CalendarClosed(object sender, RoutedEventArgs e)
         {
+            SetData();
+        }
+
+        private void SetData()
+        {
             DateTime dt = (DateTime)BirthDatePicker.SelectedDate;
             int age = CalculateAge(dt);
 
