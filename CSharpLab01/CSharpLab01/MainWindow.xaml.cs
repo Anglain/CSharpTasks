@@ -1,17 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//Unused usings
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CSharpLab01
 {
@@ -31,7 +20,7 @@ namespace CSharpLab01
         Dog = 2006,
         Pig = 2007
     }
-
+    //I will not fix your app, because didn't even tried to make it using MVVM
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -48,6 +37,7 @@ namespace CSharpLab01
 
         private void SetData()
         {
+            //Possible null reference
             DateTime dt = (DateTime)BirthDatePicker.SelectedDate;
             int age = CalculateAge(dt);
 
